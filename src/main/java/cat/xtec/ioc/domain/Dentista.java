@@ -1,4 +1,4 @@
-package cat.xtect.ioc.domain;
+package cat.xtec.ioc.domain;
 
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;

@@ -1,4 +1,4 @@
-package cat.xtect.ioc.domain;
+package cat.xtec.ioc.domain;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 import java.time.LocalDateTime;
