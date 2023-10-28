@@ -23,24 +23,6 @@ public class Dentista {
         return codi;
     }
 
-    public void setDatePacient(LocalDateTime datePacient) {
-        this.datePacient = datePacient;
-    }
-
-    @XmlJavaTypeAdapter(LocalDateTimeAdapter.class)
-    @XmlSchemaType(name = "dateTime")
-    public LocalDateTime getDatePacient() {
-        return datePacient;
-    }
-
-    public void setPacientActual(Boolean pacientActual) {
-        this.pacientActual = pacientActual;
-    }
-
-    public Boolean getPacientActual() {
-        return pacientActual;
-    }
-
     public void setPacientAcumulat(Double pacientAcumulat) {
         this.pacientAcumulat = pacientAcumulat;
     }
@@ -55,5 +37,22 @@ public class Dentista {
 
     public Double getPreuPeces() {
         return preuPeces;
+    }
+
+    public void setPacientActual(Boolean pacientActual) {
+        this.pacientActual = pacientActual;
+    }
+
+    public Boolean getPacientActual() {
+        return pacientActual;
+    }
+    public void setDatePacient(LocalDateTime datePacient) {
+        this.datePacient = datePacient;
+    }
+
+    @XmlJavaTypeAdapter(LocalDateTimeAdapter.class)
+    @XmlSchemaType(name = "dateTime")
+    public LocalDateTime getDatePacient() {
+        return datePacient;
     }
 }
